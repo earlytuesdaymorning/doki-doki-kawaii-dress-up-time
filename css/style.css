@@ -6,17 +6,19 @@ body {
     font-size: 25px;
     text-align: center;
     color: #c16a63;
+    margin-top: 5%;
 }
 
 .title-elements {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
 }
 
 #welcome-char {
     height: 300px;
     margin: 0 auto;
+    margin-top: -100px;
+    margin-bottom: 40px;
 }
 
 #play-button {
