@@ -1,3 +1,13 @@
 body {
-    background-color: pink;
+    background-color: rgb(236, 177, 187)
+}
+
+.title-screen {
+    display: flex;
+    margin-top: 15%;
+}
+
+#welcome-char {
+    height: 300px;
+    margin: 0 auto;
 }
