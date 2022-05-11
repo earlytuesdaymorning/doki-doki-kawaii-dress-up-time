@@ -57,19 +57,22 @@ h3 {
 
 .b-closet {
     position: absolute;
-    height: 425px;
+    height: 450px;
+    display: none;
 }
 
 #joker-model {
     position: absolute;
     height: 425px;
     margin-left: 30px;
+    display: none;
 }
 
 .j-closet {
     position: absolute;
     height: 425px;
     margin-left: 30px;
+    display: none;
 }
 
 #j-dress1 {
