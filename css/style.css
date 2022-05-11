@@ -3,10 +3,15 @@ body {
 }
 
 .title-text {
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
-    color: #c16a63;
+    color: rgb(97, 162, 216);
     margin-top: 5%;
+    font-family: 'Too Freakin Cute Demo', sans-serif;
+}
+
+.title-text:hover {
+    color: rgb(97, 162, 216);
 }
 
 .title-elements {
@@ -17,11 +22,12 @@ body {
 #welcome-char {
     height: 300px;
     margin: 0 auto;
-    margin-top: -100px;
+    margin-top: -200px;
     margin-bottom: 40px;
 }
 
 #play-button {
+    font-family: 'Strange of story', sans-serif;
     margin: 0 auto;
     border-radius: 50%;
     height: 90px;
@@ -30,15 +36,15 @@ body {
     border-style: solid;
     border-width: 20px;
     border-color: #c16a63;
-    color: #c16a63;
-    font-size: xx-large;
+    color: rgb(97, 162, 216);
+    font-size: 40px;
     cursor: pointer;
     box-shadow: 4px 5px rgba(0, 0, 0, 0.25);
 }
 
 #play-button:hover {
     box-shadow: 7px 7px rgba(0, 0, 0, 0.25);
-    background-image: linear-gradient(to right, rgb(97, 162, 216), pink, rgb(238, 209, 214), pink, rgb(97, 162, 216));
+    background-image: linear-gradient(to right, rgb(97, 162, 216), pink, pink, rgb(238, 209, 214), pink, pink, rgb(97, 162, 216));
 }
 
 #play-button:active {
