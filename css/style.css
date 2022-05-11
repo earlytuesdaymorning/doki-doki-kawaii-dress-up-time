@@ -48,5 +48,6 @@ body {
 }
 
 #play-button:active {
-    box-shadow: 1px 2px rgba(0, 0, 0, 0.25)
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(to right, rgb(133, 174, 207), rgb(255, 209, 216), rgb(255, 209, 216), rgb(235, 225, 227), rgb(255, 209, 216), rgb(255, 209, 216), rgb(133, 174, 207));
 }
