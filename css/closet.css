@@ -2,10 +2,26 @@ body {
     background-color: pink;
 }
 
-#batman {
+#pick-me-batman #batman-button {
+    height: 80px;
+}
+
+#pick-me-joker #joker-button {
+    height: 80px;
+}
+
+#pick-me-batman {
+    width: 75px
+}
+
+#pick-me-joker {
+    width: 75px;
+}
+
+#batman-model {
     height: 450px;
 }
 
-#joker {
+#joker-model {
     height: 425px;
 }
