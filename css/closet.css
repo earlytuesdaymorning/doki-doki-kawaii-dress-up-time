@@ -2,6 +2,29 @@ body {
     background-color: pink;
 }
 
+
+/* character selection bar */
+h3 {
+    text-align: center;
+}
+
+.character-selection {
+    display: flex;
+    margin: 0 auto 150px;
+    justify-content: center;
+    width: 170px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(97, 162, 216);
+    background-color: rgb(97, 162, 216);
+}
+
+.character-selection * {
+    border-radius: 5px;
+    border-color: rgb(62, 135, 196);
+    
+}
+
 #pick-me-batman #batman-button {
     height: 80px;
 }
@@ -11,17 +34,91 @@ body {
 }
 
 #pick-me-batman {
-    width: 75px
+    width: 75px;
+    margin-right: 5px;
 }
 
 #pick-me-joker {
     width: 75px;
+    margin-left: 5px;
+}
+
+
+/* dressing room */
+.character-stage {
+    position: absolute;
+    margin: auto 0;
 }
 
 #batman-model {
+    position: absolute;
     height: 450px;
 }
 
-#joker-model {
+.b-closet {
+    position: absolute;
     height: 425px;
+}
+
+#joker-model {
+    position: absolute;
+    height: 425px;
+    margin-left: 30px;
+}
+
+.j-closet {
+    position: absolute;
+    height: 425px;
+    margin-left: 30px;
+}
+
+#j-dress1 {
+    position: absolute;
+    margin-left: 16px;
+}
+
+#j-skirt2 {
+    margin-left: 18px;
+}
+
+#j-skirt1 {
+    margin-left: 18px;
+}
+
+
+/* clothing choices */
+.closet {
+    display: grid;
+    float: right;
+}
+
+.dress * {
+    height: 70px;
+}
+
+.dress {
+    height: 90px;
+    width: 90px;
+}
+
+.top * {
+    height: 60px;
+}
+
+.top {
+    height: 90px;
+    width: 90px;
+}
+
+#top5 {
+    width: 70px;
+}
+
+.skirt * {
+    height: 50px;
+}
+
+.skirt {
+    height: 90px;
+    width: 90px;
 }
