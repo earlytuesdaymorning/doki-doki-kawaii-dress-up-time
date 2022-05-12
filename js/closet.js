@@ -7,19 +7,7 @@ const url = "https://rolz.org/api/?1d20.json"
 
 
 //EVENT LISTENERS
-$("#fight-button").on("click", function (event) {
-    if ($("#batman-model").is(":visible") && $("#joker-model").is(":hidden")) {
-        $("#joker-model").show();
-        $("#joker-model").css({ "margin-left": "500px" });
-        $(".closet").hide();
-        $("#fight-button").hide();
-    } if ($("#joker-model").is(":visible") && $("#batman-model").is(":hidden")) {
-        $("#batman-model").show();
-        $("#batman-model").css({ "margin-left": "500px" });
-        $(".closet").hide();
-        $("#fight-button").hide();
-    }
-});
+$("#fight-button").on("click", opponentSelector);
 
 $("#pick-me-batman").on("click", function (event) {
     $("#batman-model").toggle();
@@ -32,7 +20,6 @@ $("#pick-me-joker").on("click", function (event) {
     $("#batman-model").hide();
     $(".wear").hide();
 });
-
 
 $("#dress-b1").on("click", function (event) {
     if ($("#joker-model").is(":hidden") && $("#batman-model").is(":visible")) {
@@ -248,4 +235,20 @@ function whoIsCuter(event) {
             $("#dice-roll1").html(`${data.result}`)
         }
     );
-}
+};
+
+function opponentSelector(event) {
+    if ($("#batman-model").is(":visible") && $("#joker-model").is(":hidden")) {
+        $("#joker-model").show();
+        $("#joker-model").css({ "margin-left": "500px" });
+        $(".closet").hide();
+        $("#fight-button").hide();
+        whoIsCuter();
+    } if ($("#joker-model").is(":visible") && $("#batman-model").is(":hidden")) {
+        $("#batman-model").show();
+        $("#batman-model").css({ "margin-left": "500px" });
+        $(".closet").hide();
+        $("#fight-button").hide();
+        whoIsCuter();
+    }
+};
