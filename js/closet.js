@@ -1,10 +1,5 @@
-//VARIABLES
-
-
-//ELEMENT REFERENCES (jQuery variables)
-
-
 //EVENT LISTENERS
+
 $("#pick-me-batman").on("click", function (event) {
     $("#batman-model").toggle();
     $("#joker-model").hide();
@@ -223,12 +218,5 @@ $("#skirt-b6").on("click", function (event) {
 });
 
 
-if ($("#batman-model").css("display") === "none" && $("#joker-model").is(":visible")) {
-    $("#").toggle();
-    $(".:not(#)").hide();
-    $(".dresses").hide();
-}
-
 
 //FUNCTIONS
-
