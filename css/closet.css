@@ -90,9 +90,11 @@ h3 {
 
 /* clothing choices */
 .closet {
+    padding: 2%;
     display: grid;
     float: right;
     margin-right: 15%;
+    position: relative;
 }
 
 .dress * {
