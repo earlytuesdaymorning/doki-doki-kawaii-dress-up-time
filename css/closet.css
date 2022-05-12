@@ -2,7 +2,6 @@ body {
     background-color: pink;
 }
 
-
 /* character selection bar */
 h3 {
     text-align: center;
@@ -47,7 +46,7 @@ h3 {
 /* dressing room */
 .character-stage {
     position: absolute;
-    margin: auto 0;
+    margin: auto 0 auto 7%;
 }
 
 #batman-model {
@@ -93,6 +92,7 @@ h3 {
 .closet {
     display: grid;
     float: right;
+    margin-right: 15%;
 }
 
 .dress * {
@@ -125,3 +125,15 @@ h3 {
     height: 90px;
     width: 90px;
 }
+
+.fight {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#fight-button {
+    margin-top: 90px;
+}
+

@@ -7,7 +7,7 @@ body {
     text-align: center;
     color: rgb(97, 162, 216);
     margin-top: 5%;
-    font-family: 'Too Freakin Cute Demo', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .title-text:hover {
@@ -27,7 +27,7 @@ body {
 }
 
 #play-button {
-    font-family: 'Strange of story', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
     margin: 0 auto;
     border-radius: 50%;
     height: 90px;
@@ -38,6 +38,7 @@ body {
     border-color: #c16a63;
     color: rgb(97, 162, 216);
     font-size: 40px;
+    padding-bottom: 60px;
     cursor: pointer;
     box-shadow: 4px 5px rgba(0, 0, 0, 0.25);
 }
