@@ -57,7 +57,7 @@ h3 {
 .b-closet {
     position: absolute;
     height: 450px;
-    
+    display: none;
 }
 
 #joker-model {
