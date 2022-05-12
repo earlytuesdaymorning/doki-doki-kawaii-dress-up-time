@@ -52,6 +52,7 @@ h3 {
 #batman-model {
     position: absolute;
     height: 450px;
+    display: none;
 }
 
 .b-closet {

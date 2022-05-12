@@ -1,43 +1,54 @@
 //VARIABLES
-const batDress1
-const batDress2
-const batDress3
-const batDress4
-const batDress5
-const batDress6
-const batTop1
-const batTop2
-const batTop3
-const batTop4
-const batTop5
-const batTop6
-const batSkirt1
-const batSkirt2
-const batSkirt3
-const batSkirt4
-const batSkirt5
-const batSkirt6
-const jDress1
-const jDress2
-const jDress3
-const jDress4
-const jDress5
-const jDress6
-const jTop1
-const jTop2
-const jTop3
-const jTop4
-const jTop5
-const jTop6
-const jSkirt1
-const jSkirt2
-const jSkirt3
-const jSkirt4
-const jSkirt5
-const jSkirt6
+
+const url = "https://rolz.org/api/?1d20.json"
+
+// const batDress1
+// const batDress2
+// const batDress3
+// const batDress4
+// const batDress5
+// const batDress6
+// const batTop1
+// const batTop2
+// const batTop3
+// const batTop4
+// const batTop5
+// const batTop6
+// const batSkirt1
+// const batSkirt2
+// const batSkirt3
+// const batSkirt4
+// const batSkirt5
+// const batSkirt6
+// const jDress1
+// const jDress2
+// const jDress3
+// const jDress4
+// const jDress5
+// const jDress6
+// const jTop1
+// const jTop2
+// const jTop3
+// const jTop4
+// const jTop5
+// const jTop6
+// const jSkirt1
+// const jSkirt2
+// const jSkirt3
+// const jSkirt4
+// const jSkirt5
+// const jSkirt6
+
+
+// ELEMENT REFERENCES
 
 
 //EVENT LISTENERS
+// $("#fight-button").on("click", function (event) {
+//     alert("hello")
+// });
+
+$("#fight-button").on("click", whoIsCuter)
 
 $("#pick-me-batman").on("click", function (event) {
     $("#batman-model").toggle();
@@ -259,3 +270,10 @@ $("#skirt-b6").on("click", function (event) {
 
 
 //FUNCTIONS
+function whoIsCuter(event) {
+    $.ajax(url).then(
+        function (data) {
+            $("#dice-roll1").html(`${data.result}`)
+        }
+    );
+}
