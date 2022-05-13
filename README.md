@@ -8,7 +8,7 @@ So, I decided to combine the two and make a dress-up doll game where you can put
 
 # Technologies used
 
-Used JavaScript, HTML, and CSS to create. This game also used jQuery, [Rolz Dice API](https://rolz.org/help/api), and [CircleType API](https://circletype.labwire.ca/).
+Used JavaScript, HTML, and CSS to create. This game also used jQuery, AJAX, [Rolz Dice API](https://rolz.org/help/api), and [CircleType API](https://circletype.labwire.ca/).
 
 # Getting Started
 
