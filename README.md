@@ -36,3 +36,4 @@ Here we have the play page.
 - More clickable features on the title screen.
 - Cute music to play in the background.
 - Better scoring system that isn't based so heavily on chance.
+- Make it mobile-friendly
