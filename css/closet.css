@@ -187,5 +187,6 @@ h3 {
 
 #dice-roll1, #dice-roll2 {
     font-size: 40px;
-    color: rgb(62, 135, 196);;
+    color: rgb(62, 135, 196);
+    font-family: 'Prompt', sans-serif;
 }
