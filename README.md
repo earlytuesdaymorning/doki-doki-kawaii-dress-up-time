@@ -1,7 +1,6 @@
 # Doki-Doki Kawaii Dress-up Time
 
-A tongue-in-cheek dress-up doll game, for anyone who loves being cute and also fighting and/or doing crime.
----
+### A tongue-in-cheek dress-up doll game, for anyone who loves being cute and also fighting and/or doing crime.
 
 This game was made because when I was a little girl, I loved a lot of girly things as well as a lot of things that were "for boys."
 Some of my favorite little games to play were dress-up dolls, and I have always been a huge fan of Batman and other superheros.
