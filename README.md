@@ -36,3 +36,7 @@ Here we have the play page.
 - Cute music to play in the background.
 - Better scoring system that isn't based so heavily on chance.
 - Make it mobile-friendly
+
+### Check it out!
+
+[Doki-doki Kawaii Dress-up Time](https://dokidokikawaiidressuptime.netlify.app/)
