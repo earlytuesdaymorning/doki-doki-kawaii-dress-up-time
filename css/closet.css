@@ -5,6 +5,9 @@ body {
 /* character selection bar */
 h3 {
     text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: larger;
+    color: rgb(62, 135, 196);
 }
 
 .character-selection {
@@ -148,6 +151,7 @@ h3 {
     border-color: #c16a63;
     color: rgb(97, 162, 216);
     font-size: 40px;
+    font-family: 'Prompt', sans-serif;
     padding-bottom: 60px;
     cursor: pointer;
     box-shadow: 4px 5px rgba(0, 0, 0, 0.25);
