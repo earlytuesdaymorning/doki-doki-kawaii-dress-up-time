@@ -253,6 +253,8 @@ function opponentSelector(event) {
         $(".joker").css({ "margin-left": "500px" });
         $(".closet").hide();
         $("#fight-button").hide();
+        $(".character-selection").hide();
+        $("h3").hide();
         $(randomJoker[Math.floor(Math.random() * randomJoker.length)]).show()
         whoIsCuter();
         $.ajax(url).then(
@@ -266,6 +268,8 @@ function opponentSelector(event) {
         $(".batman").css({ "margin-left": "500px" });
         $(".closet").hide();
         $("#fight-button").hide();
+        $(".character-selection").hide();
+        $("h3").hide();
         $(randomBatman[Math.floor(Math.random() * randomBatman.length)]).show()
         whoIsCuter();
         $.ajax(url).then(

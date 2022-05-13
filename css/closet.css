@@ -138,6 +138,31 @@ h3 {
 
 #fight-button {
     margin-top: 90px;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 90px;
+    width: 400px;
+    background: none;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #c16a63;
+    color: rgb(97, 162, 216);
+    font-size: 40px;
+    padding-bottom: 60px;
+    cursor: pointer;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+#fight-button:hover {
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(to right, rgb(216, 86, 77), rgb(230, 134, 44), rgb(240, 168, 100), rgb(245, 209, 179), rgb(240, 168, 100), rgb(230, 134, 44), rgb(216, 86, 77));
+    border-color: #b84f09;
+}
+
+#fight-button:active {
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(to right, rgb(216, 86, 77), rgb(230, 134, 44), rgb(240, 168, 100), rgb(245, 209, 179), rgb(240, 168, 100), rgb(230, 134, 44), rgb(216, 86, 77));
+    border-color: #b84f09;
 }
 
 .roll-table {
