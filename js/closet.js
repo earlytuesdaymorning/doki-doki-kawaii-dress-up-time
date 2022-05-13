@@ -1,7 +1,9 @@
 //VARIABLES
-
-const url = "https://rolz.org/api/?1d20.json"
-
+const url = "https://rolz.org/api/?2d20.json"
+const randomJoker = $(".jd")
+const randomBatman = $(".bd")
+// const diceRoll1 = parseInt(dice-roll1)
+// const diceRoll2 = parseInt(dice-roll2)
 
 // ELEMENT REFERENCES
 
@@ -237,18 +239,40 @@ function whoIsCuter(event) {
     );
 };
 
+// function pickWinner() {
+//     if (diceRoll1 > diceRoll2) {
+//         $("h1").html("YOU WIN! You are the most adorable!")
+//     } else {
+//         $("h1").html("YOU LOSE! Noooo, so ugly! ):")
+//     }
+// };
+
 function opponentSelector(event) {
     if ($("#batman-model").is(":visible") && $("#joker-model").is(":hidden")) {
         $("#joker-model").show();
-        $("#joker-model").css({ "margin-left": "500px" });
+        $(".joker").css({ "margin-left": "500px" });
         $(".closet").hide();
         $("#fight-button").hide();
+        $(randomJoker[Math.floor(Math.random() * randomJoker.length)]).show()
         whoIsCuter();
+        $.ajax(url).then(
+            function (data) {
+                $("#dice-roll2").html(`${data.result}`)
+            }
+        );
+        // pickWinner();
     } if ($("#joker-model").is(":visible") && $("#batman-model").is(":hidden")) {
         $("#batman-model").show();
-        $("#batman-model").css({ "margin-left": "500px" });
+        $(".batman").css({ "margin-left": "500px" });
         $(".closet").hide();
         $("#fight-button").hide();
+        $(randomBatman[Math.floor(Math.random() * randomBatman.length)]).show()
         whoIsCuter();
+        $.ajax(url).then(
+            function (data) {
+                $("#dice-roll2").html(`${data.result}`)
+            }
+        );
+        // pickWinner();
     }
 };

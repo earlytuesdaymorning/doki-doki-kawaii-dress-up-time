@@ -139,3 +139,24 @@ h3 {
 #fight-button {
     margin-top: 90px;
 }
+
+.roll-table {
+    width: 1000px;
+    height: 100%
+}
+
+#dice-roll1 {
+    float: left;
+    margin-left: 35%;
+    z-index: 2;
+}
+
+#dice-roll2 {
+    float: right;
+    margin-right: 45%;
+}
+
+#dice-roll1, #dice-roll2 {
+    font-size: 40px;
+    color: rgb(62, 135, 196);;
+}
